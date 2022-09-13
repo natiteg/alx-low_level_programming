@@ -1,18 +1,21 @@
 #include <main.h>
+
 /**
-* main - entry block
-* @void: no argument
-* Retrn: 0
+* main - entry point
+*
+* Description: prints _putchar using putchar prototype
+*
+* Return: 0
 */
+
 int main(void)
 {
-char c[] = "_putchar";
-int i;
+char str[] = "_putchar";
+int ch;
 
-for (i = 0; i < 8; i++)
-{
-_putchar(c[i]);
-}
-_putchar('\n');
+for (ch = 0; ch < 8; ++ch)
+_putchar(str[ch]);
+_putchar("\n");
+
 return (0);
 }
