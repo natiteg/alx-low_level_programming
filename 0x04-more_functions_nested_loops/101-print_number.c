@@ -29,4 +29,5 @@ ii++;
 }
 if (i == 0)
 _putchar('0' + n);
+ return (0);
 }
