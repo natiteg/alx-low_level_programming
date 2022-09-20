@@ -1,0 +1,2 @@
+#!/bin/bash
+git add . && git commit -m'praise the lord' && git push
