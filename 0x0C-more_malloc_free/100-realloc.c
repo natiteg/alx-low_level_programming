@@ -8,7 +8,7 @@
 * @src: memory source
 * @n: size of new memory
 */
-
+ 
 void _memcpy(void *dest, void *src, size_t n)
 {
 size_t i;
@@ -27,7 +27,7 @@ cdest[i] = csrc[i];
 * @new_size: size of new memory
 * Return: pointer to new memory
 */
-
+ 
 
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
@@ -59,3 +59,4 @@ return (newPtr);
 }
 return (0);
 }
+
