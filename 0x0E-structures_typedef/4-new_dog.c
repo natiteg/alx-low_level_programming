@@ -16,7 +16,7 @@ dog_t *new_dog(char *name, float age, char *owner);
 *
 * Return: The length of the string.
 */
- 
+
 int _strlen(char *str)
 {
 int len = 0
@@ -35,7 +35,7 @@ return (len);
 *
 * Return: The pointer to dest.
 */
- 
+
 char *_strcopy(char *dest, char *src)
 {
 int index = 0;
@@ -55,7 +55,7 @@ return (dest);
 *
 * Return: The new struct dog.
 */
- 
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *doggo;
