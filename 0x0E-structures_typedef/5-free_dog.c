@@ -1,15 +1,16 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "dog.h"
+#include <stdlib.h>
 
 /**
-* free_dog - entry point
-* @d: struct to free
-* Return: 0
+* free_dog - Frees dogs.
+* @d: The dog to be freed.
 */
+
 void free_dog(dog_t *d)
 {
 if (d == NULL)
 return;
+free(d->owner);
+free(d->name);
 free(d);
 }
