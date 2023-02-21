@@ -1,11 +1,11 @@
 Resources
 Read or watch:
 
-Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first)
-Dennis Ritchie
-“C” Programming Language: Brian Kernighan
-Why C Programming Is Awesome
-Learning to program in C part 1
+-Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first)
+-Dennis Ritchie
+-“C” Programming Language: Brian Kernighan
+-Why C Programming Is Awesome
+-Learning to program in C part 1
 Learning to program in C part 2
 Understanding C program Compilation Process
 Betty Coding Style
@@ -17,3 +17,4 @@ gcc
 printf (3)
 puts
 putchar
+https://intranet.alxswe.com/rltoken/aE_pZLbexuLroHA0FmjLbw
