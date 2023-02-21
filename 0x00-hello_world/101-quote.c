@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - using write outputs a string to stderr
+ * main - using write prints a string to stderr
  * Return: (1) successful exit code for project spec
  */
 int main(void)
