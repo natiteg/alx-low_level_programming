@@ -1,4 +1,4 @@
-# -*- Makefile -*-
+
 
 all: school
 school: school.c main.c
